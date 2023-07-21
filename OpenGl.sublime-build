@@ -1,0 +1,5 @@
+{
+  "cmd": "g++ -std=c++20 \"$file_name\" -o \"$file_base_name\" -lGL -lGLU -lglut -lm && ./\"$file_base_name\"<input.txt>output.txt",
+  "shell": true,
+  "selector": "source.cpp",
+}
